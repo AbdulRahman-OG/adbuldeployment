@@ -42,3 +42,4 @@ if uploaded_file is not None:
     if st.button("Predict Sentiment"):
         result = predict_sentiment(user_review)
         st.success("Predicted Sentiment: "+result)
+
